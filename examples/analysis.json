@@ -1,0 +1,991 @@
+{
+  "visits": [
+    {
+      "customerId": "customer-demo-3",
+      "repId": "rep-demo-3",
+      "occurredAt": "2026-10-12T11:00:00.000Z",
+      "lat": 35.02,
+      "lng": -99.98,
+      "notes": "Reviewed 11 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "won",
+      "amount": 2250,
+      "durationMinutes": 28,
+      "id": "visit-demo-9",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Packaging C",
+      "repName": "Riley Example",
+      "analysis": {
+        "quality": {
+          "score": 63,
+          "status": "review",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Positive amount or numeric unit recorded (+10).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6).",
+            "Narrative resembles an earlier record; review reused text (-25)."
+          ],
+          "metrics": {
+            "evidenceCount": 5,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": false,
+              "numeric": true
+            },
+            "duplicateSimilarity": 1,
+            "duplicateComparisonCount": 1,
+            "duplicateNarrative": true,
+            "distanceKm": 0,
+            "travelSpeedKmh": 0.21,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 28,
+            "sameCustomerVisits": 1,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 98,
+          "stage": "won",
+          "reasons": [
+            "5 recorded evidence signals; lexical matches are unverified (+20).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "Won outcome or affirmative completion wording recorded; no payment verified (+60).",
+            "Narrative resembles an earlier record; review reused text (-12)."
+          ]
+        },
+        "health": {
+          "score": 77,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 6.04 days since the latest recorded visit; component 89.93/100.",
+            "Activity trend: 2 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 76.5/100 over 2 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-2",
+      "repId": "rep-demo-2",
+      "occurredAt": "2026-10-12T10:00:00.000Z",
+      "lat": 35.01,
+      "lng": -99.99,
+      "notes": "Reviewed 10 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "proposal",
+      "amount": 0,
+      "durationMinutes": 27,
+      "id": "visit-demo-8",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Research B",
+      "repName": "Jordan Example",
+      "analysis": {
+        "quality": {
+          "score": 65,
+          "status": "review",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Document reference matched lexically (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6).",
+            "Narrative resembles an earlier record; review reused text (-25)."
+          ],
+          "metrics": {
+            "evidenceCount": 5,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": true,
+              "numeric": false
+            },
+            "duplicateSimilarity": 1,
+            "duplicateComparisonCount": 2,
+            "duplicateNarrative": true,
+            "distanceKm": 0,
+            "travelSpeedKmh": 0.21,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 27,
+            "sameCustomerVisits": 1,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 53,
+          "stage": "proposal",
+          "reasons": [
+            "5 recorded evidence signals; lexical matches are unverified (+20).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "Proposal wording detected (+15).",
+            "Narrative resembles an earlier record; review reused text (-12)."
+          ]
+        },
+        "health": {
+          "score": 76,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 6.08 days since the latest recorded visit; component 89.86/100.",
+            "Activity trend: 2 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 71.5/100 over 2 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-1",
+      "repId": "rep-demo-1",
+      "occurredAt": "2026-10-12T09:00:00.000Z",
+      "lat": 35,
+      "lng": -100,
+      "notes": "Reviewed 9 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "follow_up",
+      "amount": 0,
+      "durationMinutes": 26,
+      "id": "visit-demo-7",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Manufacturing A",
+      "repName": "Alex Example",
+      "analysis": {
+        "quality": {
+          "score": 53,
+          "status": "review",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6).",
+            "Narrative resembles an earlier record; review reused text (-25)."
+          ],
+          "metrics": {
+            "evidenceCount": 4,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": false,
+              "numeric": false
+            },
+            "duplicateSimilarity": 1,
+            "duplicateComparisonCount": 2,
+            "duplicateNarrative": true,
+            "distanceKm": 0,
+            "travelSpeedKmh": 0.21,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 26,
+            "sameCustomerVisits": 1,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 34,
+          "stage": "follow_up",
+          "reasons": [
+            "4 recorded evidence signals; lexical matches are unverified (+16).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "Narrative resembles an earlier record; review reused text (-12)."
+          ]
+        },
+        "health": {
+          "score": 75,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 6.13 days since the latest recorded visit; component 89.79/100.",
+            "Activity trend: 2 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 65.5/100 over 2 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-6",
+      "repId": "rep-demo-3",
+      "occurredAt": "2026-10-11T14:00:00.000Z",
+      "lat": 35.05,
+      "lng": -99.95,
+      "notes": "No contact.",
+      "actionTaken": "",
+      "nextStep": "",
+      "outcome": "no_contact",
+      "amount": 0,
+      "durationMinutes": 2,
+      "id": "visit-demo-6",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Logistics F",
+      "repName": "Riley Example",
+      "analysis": {
+        "quality": {
+          "score": 16,
+          "status": "incomplete",
+          "reasons": [
+            "Outcome recorded (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6).",
+            "Recorded duration is below the configured minimum (-8).",
+            "Notes have insufficient detail for the configured length check."
+          ],
+          "metrics": {
+            "evidenceCount": 1,
+            "evidence": {
+              "notes": false,
+              "action": false,
+              "nextStep": false,
+              "outcome": true,
+              "document": false,
+              "numeric": false
+            },
+            "duplicateSimilarity": 0,
+            "duplicateComparisonCount": 1,
+            "duplicateNarrative": false,
+            "distanceKm": 0,
+            "travelSpeedKmh": 0.16,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 2,
+            "sameCustomerVisits": 0,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 12,
+          "stage": "discovery",
+          "reasons": [
+            "1 recorded evidence signals; lexical matches are unverified (+4).",
+            "First contact in the supplied dated customer history (+8)."
+          ]
+        },
+        "health": {
+          "score": 57,
+          "band": "watch",
+          "reasons": [
+            "Recency: 6.92 days since the latest recorded visit; component 88.47/100.",
+            "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: no next step is recorded; component 45/100.",
+            "Mean recorded quality: 16/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-5",
+      "repId": "rep-demo-2",
+      "occurredAt": "2026-10-11T13:00:00.000Z",
+      "lat": 35.04,
+      "lng": -99.96,
+      "notes": "Reviewed 7 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "lost",
+      "amount": 0,
+      "durationMinutes": 24,
+      "id": "visit-demo-5",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Workshop E",
+      "repName": "Jordan Example",
+      "analysis": {
+        "quality": {
+          "score": 53,
+          "status": "review",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6).",
+            "Narrative resembles an earlier record; review reused text (-25)."
+          ],
+          "metrics": {
+            "evidenceCount": 4,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": false,
+              "numeric": false
+            },
+            "duplicateSimilarity": 1,
+            "duplicateComparisonCount": 1,
+            "duplicateNarrative": true,
+            "distanceKm": 0,
+            "travelSpeedKmh": 0.16,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 24,
+            "sameCustomerVisits": 0,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 42,
+          "stage": "lost",
+          "reasons": [
+            "4 recorded evidence signals; lexical matches are unverified (+16).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "First contact in the supplied dated customer history (+8).",
+            "Narrative resembles an earlier record; review reused text (-12).",
+            "A lost or cancelled outcome is recorded; the score describes recorded activity, not employee performance."
+          ]
+        },
+        "health": {
+          "score": 71,
+          "band": "watch",
+          "reasons": [
+            "Recency: 6.96 days since the latest recorded visit; component 88.4/100.",
+            "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 53/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-4",
+      "repId": "rep-demo-1",
+      "occurredAt": "2026-10-11T12:00:00.000Z",
+      "lat": 35.03,
+      "lng": -99.97,
+      "notes": "Reviewed 6 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "won",
+      "amount": 1000,
+      "durationMinutes": 23,
+      "id": "visit-demo-4",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Components D",
+      "repName": "Alex Example",
+      "analysis": {
+        "quality": {
+          "score": 63,
+          "status": "review",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Positive amount or numeric unit recorded (+10).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6).",
+            "Narrative resembles an earlier record; review reused text (-25)."
+          ],
+          "metrics": {
+            "evidenceCount": 5,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": false,
+              "numeric": true
+            },
+            "duplicateSimilarity": 1,
+            "duplicateComparisonCount": 1,
+            "duplicateNarrative": true,
+            "distanceKm": 0,
+            "travelSpeedKmh": 0.16,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 23,
+            "sameCustomerVisits": 0,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 100,
+          "stage": "won",
+          "reasons": [
+            "5 recorded evidence signals; lexical matches are unverified (+20).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "Won outcome or affirmative completion wording recorded; no payment verified (+60).",
+            "First contact in the supplied dated customer history (+8).",
+            "Narrative resembles an earlier record; review reused text (-12)."
+          ]
+        },
+        "health": {
+          "score": 73,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 7 days since the latest recorded visit; component 88.33/100.",
+            "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 63/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-3",
+      "repId": "rep-demo-3",
+      "occurredAt": "2026-10-10T11:00:00.000Z",
+      "lat": 35.02,
+      "lng": -99.98,
+      "notes": "Reviewed 5 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "proposal",
+      "amount": 0,
+      "durationMinutes": 22,
+      "id": "visit-demo-3",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Packaging C",
+      "repName": "Riley Example",
+      "analysis": {
+        "quality": {
+          "score": 90,
+          "status": "complete",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Document reference matched lexically (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6)."
+          ],
+          "metrics": {
+            "evidenceCount": 5,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": true,
+              "numeric": false
+            },
+            "duplicateSimilarity": 0,
+            "duplicateComparisonCount": 0,
+            "duplicateNarrative": false,
+            "distanceKm": 0,
+            "travelSpeedKmh": null,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 22,
+            "sameCustomerVisits": 0,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 73,
+          "stage": "proposal",
+          "reasons": [
+            "5 recorded evidence signals; lexical matches are unverified (+20).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "Proposal wording detected (+15).",
+            "First contact in the supplied dated customer history (+8)."
+          ]
+        },
+        "health": {
+          "score": 79,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 8.04 days since the latest recorded visit; component 86.6/100.",
+            "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 90/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-2",
+      "repId": "rep-demo-2",
+      "occurredAt": "2026-10-10T10:00:00.000Z",
+      "lat": 35.01,
+      "lng": -99.99,
+      "notes": "Reviewed 4 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "follow_up",
+      "amount": 0,
+      "durationMinutes": 21,
+      "id": "visit-demo-2",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Research B",
+      "repName": "Jordan Example",
+      "analysis": {
+        "quality": {
+          "score": 78,
+          "status": "complete",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6)."
+          ],
+          "metrics": {
+            "evidenceCount": 4,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": false,
+              "numeric": false
+            },
+            "duplicateSimilarity": 0,
+            "duplicateComparisonCount": 0,
+            "duplicateNarrative": false,
+            "distanceKm": 0,
+            "travelSpeedKmh": null,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 21,
+            "sameCustomerVisits": 0,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 54,
+          "stage": "follow_up",
+          "reasons": [
+            "4 recorded evidence signals; lexical matches are unverified (+16).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "First contact in the supplied dated customer history (+8)."
+          ]
+        },
+        "health": {
+          "score": 76,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 8.08 days since the latest recorded visit; component 86.53/100.",
+            "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 78/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    },
+    {
+      "customerId": "customer-demo-1",
+      "repId": "rep-demo-1",
+      "occurredAt": "2026-10-10T09:00:00.000Z",
+      "lat": 35,
+      "lng": -100,
+      "notes": "Reviewed 3 sample components with the fictional procurement contact. Discussed delivery schedule and capacity for the demonstration.",
+      "actionTaken": "Discussed requirements and prepared a sample comparison.",
+      "nextStep": "Send the revised quotation and call the example contact on the agreed follow-up date.",
+      "outcome": "discovery",
+      "amount": 0,
+      "durationMinutes": 20,
+      "id": "visit-demo-1",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "customerName": "Example Manufacturing A",
+      "repName": "Alex Example",
+      "analysis": {
+        "quality": {
+          "score": 78,
+          "status": "complete",
+          "reasons": [
+            "Detailed notes recorded (+16).",
+            "Action recorded or matched lexically (+20).",
+            "Next step recorded or matched lexically (+18).",
+            "Outcome recorded (+12).",
+            "Finite, in-range coordinates recorded; attendance is unverified (+6).",
+            "Valid timestamp recorded (+6)."
+          ],
+          "metrics": {
+            "evidenceCount": 4,
+            "evidence": {
+              "notes": true,
+              "action": true,
+              "nextStep": true,
+              "outcome": true,
+              "document": false,
+              "numeric": false
+            },
+            "duplicateSimilarity": 0,
+            "duplicateComparisonCount": 0,
+            "duplicateNarrative": false,
+            "distanceKm": 0,
+            "travelSpeedKmh": null,
+            "locationAnomaly": false,
+            "travelAnomaly": false,
+            "locationStatus": "consistent",
+            "remoteContact": false,
+            "validTimestamp": true,
+            "durationMinutes": 20,
+            "sameCustomerVisits": 0,
+            "repeatedWithoutProgress": false,
+            "unaddressedFollowUp": false
+          }
+        },
+        "sales": {
+          "score": 54,
+          "stage": "follow_up",
+          "reasons": [
+            "4 recorded evidence signals; lexical matches are unverified (+16).",
+            "Action recorded (+12).",
+            "Follow-up step recorded (+18).",
+            "First contact in the supplied dated customer history (+8)."
+          ]
+        },
+        "health": {
+          "score": 76,
+          "band": "healthy",
+          "reasons": [
+            "Recency: 8.13 days since the latest recorded visit; component 86.46/100.",
+            "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+            "Planning: an undated next step is recorded; component 70/100.",
+            "Mean recorded quality: 78/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+            "Configured age decay: 0 points. This is a rule-based relationship indicator."
+          ]
+        }
+      }
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "customer-demo-1",
+      "customerName": "Example Manufacturing A",
+      "latestVisitAt": "2026-10-12T09:00:00.000Z",
+      "score": 75,
+      "band": "healthy",
+      "reasons": [
+        "Recency: 6.13 days since the latest recorded visit; component 89.79/100.",
+        "Activity trend: 2 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+        "Planning: an undated next step is recorded; component 70/100.",
+        "Mean recorded quality: 65.5/100 over 2 visits; historical visits use lexical quality before contextual penalties.",
+        "Configured age decay: 0 points. This is a rule-based relationship indicator."
+      ]
+    },
+    {
+      "customerId": "customer-demo-2",
+      "customerName": "Example Research B",
+      "latestVisitAt": "2026-10-12T10:00:00.000Z",
+      "score": 76,
+      "band": "healthy",
+      "reasons": [
+        "Recency: 6.08 days since the latest recorded visit; component 89.86/100.",
+        "Activity trend: 2 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+        "Planning: an undated next step is recorded; component 70/100.",
+        "Mean recorded quality: 71.5/100 over 2 visits; historical visits use lexical quality before contextual penalties.",
+        "Configured age decay: 0 points. This is a rule-based relationship indicator."
+      ]
+    },
+    {
+      "customerId": "customer-demo-3",
+      "customerName": "Example Packaging C",
+      "latestVisitAt": "2026-10-12T11:00:00.000Z",
+      "score": 77,
+      "band": "healthy",
+      "reasons": [
+        "Recency: 6.04 days since the latest recorded visit; component 89.93/100.",
+        "Activity trend: 2 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+        "Planning: an undated next step is recorded; component 70/100.",
+        "Mean recorded quality: 76.5/100 over 2 visits; historical visits use lexical quality before contextual penalties.",
+        "Configured age decay: 0 points. This is a rule-based relationship indicator."
+      ]
+    },
+    {
+      "customerId": "customer-demo-4",
+      "customerName": "Example Components D",
+      "latestVisitAt": "2026-10-11T12:00:00.000Z",
+      "score": 73,
+      "band": "healthy",
+      "reasons": [
+        "Recency: 7 days since the latest recorded visit; component 88.33/100.",
+        "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+        "Planning: an undated next step is recorded; component 70/100.",
+        "Mean recorded quality: 63/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+        "Configured age decay: 0 points. This is a rule-based relationship indicator."
+      ]
+    },
+    {
+      "customerId": "customer-demo-5",
+      "customerName": "Example Workshop E",
+      "latestVisitAt": "2026-10-11T13:00:00.000Z",
+      "score": 71,
+      "band": "watch",
+      "reasons": [
+        "Recency: 6.96 days since the latest recorded visit; component 88.4/100.",
+        "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+        "Planning: an undated next step is recorded; component 70/100.",
+        "Mean recorded quality: 53/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+        "Configured age decay: 0 points. This is a rule-based relationship indicator."
+      ]
+    },
+    {
+      "customerId": "customer-demo-6",
+      "customerName": "Example Logistics F",
+      "latestVisitAt": "2026-10-11T14:00:00.000Z",
+      "score": 57,
+      "band": "watch",
+      "reasons": [
+        "Recency: 6.92 days since the latest recorded visit; component 88.47/100.",
+        "Activity trend: 1 recent and 0 earlier visits; no earlier baseline; component 55/100.",
+        "Planning: no next step is recorded; component 45/100.",
+        "Mean recorded quality: 16/100 over 1 visits; historical visits use lexical quality before contextual penalties.",
+        "Configured age decay: 0 points. This is a rule-based relationship indicator."
+      ]
+    }
+  ],
+  "config": {
+    "asOf": "2026-10-18T12:00:00.000Z",
+    "history": {
+      "duplicateLookback": 12,
+      "duplicateMinimumLength": 32,
+      "duplicateSimilarity": 0.88,
+      "minimumTokenLength": 3,
+      "locationRadiusKm": 1.5,
+      "maximumTravelKmh": 160,
+      "repeatWindowDays": 45,
+      "repeatWithoutProgress": 5,
+      "minimumDurationMinutes": 3
+    },
+    "quality": {
+      "minimumNotesLength": 24,
+      "completeScore": 75,
+      "reviewScore": 45,
+      "weights": {
+        "notes": 16,
+        "action": 20,
+        "nextStep": 18,
+        "outcome": 12,
+        "document": 12,
+        "numeric": 10,
+        "location": 6,
+        "timestamp": 6
+      },
+      "penalties": {
+        "duplicate": 25,
+        "location": 20,
+        "travel": 15,
+        "shortDuration": 8,
+        "invalidTimestamp": 8,
+        "invalidLocation": 6
+      }
+    },
+    "sales": {
+      "weights": {
+        "evidence": 4,
+        "action": 12,
+        "nextStep": 18,
+        "proposal": 15,
+        "won": 60,
+        "firstRecordedContact": 8
+      },
+      "penalties": {
+        "duplicate": 12,
+        "location": 8,
+        "travel": 6,
+        "repeatedWithoutProgress": 12,
+        "unaddressedFollowUp": 7
+      }
+    },
+    "health": {
+      "weights": {
+        "recency": 0.4,
+        "intensity": 0.15,
+        "momentum": 0.2,
+        "quality": 0.25
+      },
+      "recencyHorizonDays": 60,
+      "recentWindowDays": 21,
+      "historyWindowDays": 84,
+      "growthRatio": 1.35,
+      "steadyRatio": 0.85,
+      "intensityGrowing": 92,
+      "intensitySteady": 68,
+      "intensityDeclining": 32,
+      "intensityWithoutBaseline": 55,
+      "unplannedMomentum": 45,
+      "undatedPlanMomentum": 70,
+      "overduePlanMomentum": 20,
+      "planHorizonDays": 30,
+      "plannedMomentumFloor": 60,
+      "decayGraceDays": 30,
+      "decayPointsPerDay": 0.65,
+      "healthyScore": 72,
+      "watchScore": 44
+    },
+    "lexicon": {
+      "action": [
+        "sent proposal",
+        "delivered sample",
+        "performed demo",
+        "shared quotation",
+        "completed meeting",
+        "teklif gönderdim",
+        "numune bıraktım",
+        "demo yaptım",
+        "görüşme yaptım"
+      ],
+      "nextStep": [
+        "follow up",
+        "call again",
+        "next week",
+        "next meeting",
+        "takip edeceğim",
+        "tekrar arayacağım",
+        "haftaya",
+        "randevu"
+      ],
+      "document": [
+        "quotation",
+        "proposal",
+        "invoice",
+        "contract",
+        "purchase order",
+        "teklif",
+        "fatura",
+        "sözleşme",
+        "proforma"
+      ],
+      "proposal": [
+        "quotation",
+        "proposal",
+        "quote requested",
+        "teklif"
+      ],
+      "won": [
+        "order confirmed",
+        "order received",
+        "sale completed",
+        "contract signed",
+        "sipariş onaylandı",
+        "sipariş alındı",
+        "satış tamamlandı",
+        "sözleşme imzalandı"
+      ],
+      "negative": [
+        "no order",
+        "not confirmed",
+        "order cancelled",
+        "order canceled",
+        "cancelled order",
+        "not sold",
+        "not yet",
+        "pending",
+        "expected",
+        "will be",
+        "next week",
+        "tomorrow",
+        "sipariş yok",
+        "sipariş alınamadı",
+        "sipariş iptal",
+        "iptal edildi",
+        "yarın",
+        "haftaya",
+        "bekleniyor",
+        "planlanıyor"
+      ],
+      "lost": [
+        "opportunity lost",
+        "closed lost",
+        "deal lost",
+        "fırsat kaybedildi"
+      ],
+      "remote": [
+        "remote meeting",
+        "phone call",
+        "video call",
+        "by email",
+        "uzaktan",
+        "telefon görüşmesi",
+        "telefonda",
+        "e-posta ile"
+      ],
+      "wonOutcomes": [
+        "won",
+        "closed_won",
+        "order_confirmed",
+        "sold"
+      ],
+      "lostOutcomes": [
+        "lost",
+        "closed_lost",
+        "cancelled",
+        "canceled"
+      ]
+    }
+  },
+  "limitations": [
+    "Explainable lexical and location data-quality signals support human review; they do not establish employee honesty, fraud, intent or performance.",
+    "GPS is recorded data, not verified presence. Sales and customer-health scores are configurable heuristics, not forecasts or financial advice.",
+    "No messages, notifications, invitations, webhooks or autonomous actions are dispatched."
+  ],
+  "generatedAt": "2026-10-18T12:00:00.000Z"
+}

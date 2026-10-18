@@ -1,0 +1,21 @@
+{
+  "source": "Actual running local application with fictional demo records only",
+  "externalProviderCalls": 0,
+  "files": [
+    {
+      "file": "docs/assets/dashboard-desktop.png",
+      "sha256": "60b0fff76f7c20a19c455a1ce548c618376d0969b89282bb8e8f4eb584d9145d",
+      "bytes": 134876
+    },
+    {
+      "file": "docs/assets/dashboard-mobile.png",
+      "sha256": "f557cf8fad5998fd0ccf75eee51ec5c2e3ae6a88b14917f02a006174ececc6a8",
+      "bytes": 55812
+    },
+    {
+      "file": "docs/assets/visits-desktop.png",
+      "sha256": "94362c77e8fc969bde535a3c43346fa2d3c9b4a3d1e099e53a3877bff0c7c554",
+      "bytes": 110903
+    }
+  ]
+}

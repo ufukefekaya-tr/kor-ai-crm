@@ -1,0 +1,18 @@
+{
+  "fictional": true,
+  "referenceDate": "2026-10-18T12:00:00.000Z",
+  "files": [
+    {
+      "file": "examples/fictional-records.json",
+      "sha256": "d002a7d1a93f401b7896a1a8b068f15c8f2b88185dfda7e46b2d04ea50c83a76"
+    },
+    {
+      "file": "examples/analysis.json",
+      "sha256": "ac10a82efc77e6f5ebe40806ce1a9626df5c39eca8f88b63a352fbaad75f9165"
+    },
+    {
+      "file": "examples/summary.json",
+      "sha256": "0b1c801ef06ddcccf39386214e6f3178fa06c3b99e7d92e47963b311af13f514"
+    }
+  ]
+}

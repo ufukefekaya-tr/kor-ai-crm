@@ -1,0 +1,39 @@
+{
+  "name": "kor-ai-crm",
+  "version": "0.1.0",
+  "description": "Local-first field-sales CRM with explainable visit analysis and agent workspaces",
+  "type": "module",
+  "private": true,
+  "license": "(MIT OR Apache-2.0)",
+  "author": "Ufuk Efe Kaya",
+  "engines": {
+    "node": ">=24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ufukefekaya-tr/kor-ai-crm.git"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail \"node --env-file-if-exists=.env --watch server/index.js\" \"vite --host 127.0.0.1\"",
+    "build": "vite build",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "test": "node --test tests/*.test.js src/lib/entities.test.js",
+    "check": "node scripts/check-source.js",
+    "licenses": "node scripts/third-party-notices.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.0.1",
+    "vite": "^8.0.10"
+  },
+  "optionalDependencies": {
+    "@google/genai": "^1.51.0"
+  }
+}

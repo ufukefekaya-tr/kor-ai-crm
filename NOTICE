@@ -1,0 +1,10 @@
+KOR AI CRM
+Copyright 2026 Ufuk Efe Kaya
+
+Original owned source, recovered general analysis rules, reconstructed standalone
+CRM interface, synthetic demo data and documentation are offered under MIT OR
+Apache-2.0, at your option. See LICENSE and docs/EXTRACTION.md.
+Third-party dependencies keep their own copyright and license terms. No proprietary
+production data, private deployment history, third-party agent runtimes or
+credential stores are distributed. See THIRD_PARTY_LICENSES.txt for dependency
+notices.

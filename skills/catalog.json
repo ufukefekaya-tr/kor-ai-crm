@@ -1,0 +1,429 @@
+[
+  {
+    "id": "auto_capture",
+    "title": "Auto Capture",
+    "description": "Desktop capture and operating-system automation require an explicitly reviewed host adapter.",
+    "capabilities": [
+      "host-execution"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "auto_capture.js",
+      "sha256": "a9adfccebb4c691f2d82141d84a6717c28881eaebc7a4856fccf89314ef66a4b"
+    }
+  },
+  {
+    "id": "brave_search",
+    "title": "Brave Search",
+    "description": "External search provider requires credentials and explicit data-sharing controls.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "brave_search.js",
+      "sha256": "1c0a67d711daac80501a7de2d594572aa34c5bd3c8434f7f74a30ac218f4379e"
+    }
+  },
+  {
+    "id": "browser_agent",
+    "title": "Browser Agent",
+    "description": "Browser automation requires a separate isolated browser and permission model.",
+    "capabilities": [
+      "network",
+      "host-execution"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "browser_agent.js",
+      "sha256": "51e0d00eff8e0adc8f2fc745f04c3e428cb759eb9f0f91788698f6940e1bced3"
+    }
+  },
+  {
+    "id": "byterover",
+    "title": "Byterover",
+    "description": "External memory persistence and credential integration are outside the standalone CRM.",
+    "capabilities": [
+      "network",
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "byterover.js",
+      "sha256": "b325f70cf98594565936adadec94d7ce7d8d742454d41e48ea6416b3535d9086"
+    }
+  },
+  {
+    "id": "calculator",
+    "title": "Calculator",
+    "description": "Reimplemented as a bounded arithmetic parser without dynamic code evaluation.",
+    "capabilities": [
+      "local-computation"
+    ],
+    "status": "local-library",
+    "source": {
+      "file": "calculator.js",
+      "sha256": "046fb8d01a9d76cf463ba2bbfaf41e6814523de58290414caab87e6c78b7ec18"
+    }
+  },
+  {
+    "id": "clawhub_installer",
+    "title": "Clawhub Installer",
+    "description": "Remote package installation and shell execution are excluded.",
+    "capabilities": [
+      "network",
+      "host-execution",
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "clawhub_installer.js",
+      "sha256": "b4b491656794ffeb0d99d3c056d4bffa04e63792a211d829fdeb0a45bae744d8"
+    }
+  },
+  {
+    "id": "clawhub_remote",
+    "title": "Clawhub Remote",
+    "description": "Remote skill discovery/execution is excluded; no third-party runtime is bundled.",
+    "capabilities": [
+      "network",
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "clawhub_remote.js",
+      "sha256": "7e06e931ab95f61807e5af0ea609f07531c7fe9ca32c68b4a07eccb5721d043f"
+    }
+  },
+  {
+    "id": "clipboard",
+    "title": "Clipboard",
+    "description": "Host clipboard access is excluded from the web CRM.",
+    "capabilities": [
+      "host-execution"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "clipboard.js",
+      "sha256": "71645d52842dffb2a813fc422481234a78b1ee9058476bf3f3f473ccbd0a9a13"
+    }
+  },
+  {
+    "id": "duckduckgo_search",
+    "title": "Duckduckgo Search",
+    "description": "External web scraping/search requires a reviewed outbound adapter.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "duckduckgo_search.js",
+      "sha256": "caff54f3223598d166364503cae6b0619b67b0706af4f63704984915f4400126"
+    }
+  },
+  {
+    "id": "email_manager",
+    "title": "Email Manager",
+    "description": "Mailbox access and sending require explicit account permissions and a separate adapter.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "email_manager.js",
+      "sha256": "9c72c648a8d179c460172f1189fd560011527bee0705bdacd1b647a71390eb89"
+    }
+  },
+  {
+    "id": "excel_manager",
+    "title": "Excel Manager",
+    "description": "Arbitrary filesystem/spreadsheet operations require a scoped document adapter.",
+    "capabilities": [
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "excel_manager.js",
+      "sha256": "17988b2a2a6fb12c8dcc17a052df459d7265879e29982db7b09c37db1e231d41"
+    }
+  },
+  {
+    "id": "get_time",
+    "title": "Get Time",
+    "description": "Reimplemented as a local timezone-aware utility with an injectable clock.",
+    "capabilities": [
+      "local-computation"
+    ],
+    "status": "local-library",
+    "source": {
+      "file": "get_time.js",
+      "sha256": "f82c5e0cc086332c499ea05884b773b35b4ca834c46154214f85a9ada90956df"
+    }
+  },
+  {
+    "id": "github_manager",
+    "title": "Github Manager",
+    "description": "Remote repository writes and shell credentials require a separate authenticated adapter.",
+    "capabilities": [
+      "network",
+      "host-execution"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "github_manager.js",
+      "sha256": "8a744d8ecf05356110aa1cf257757a9165c67842afe6c8a68beb07e0300da2c5"
+    }
+  },
+  {
+    "id": "google_search",
+    "title": "Google Search",
+    "description": "External search requires an explicit outbound adapter.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "google_search.js",
+      "sha256": "c9945f02acf798dee2da6335cd6100b646c9192995f9316c2df9515ce866e742"
+    }
+  },
+  {
+    "id": "google_workspace",
+    "title": "Google Workspace",
+    "description": "Workspace account permissions and writes require a separate authenticated adapter.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "google_workspace.js",
+      "sha256": "33330110718a04a999109e31dcbfb4d19dcae76fd82c174278317b359df5fff7"
+    }
+  },
+  {
+    "id": "health_checker",
+    "title": "Health Checker",
+    "description": "Host service/network probes are outside the customer CRM data model.",
+    "capabilities": [
+      "local-computation"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "health_checker.js",
+      "sha256": "cf2a1eb3f4e6e3e49a5d76f3abb9fef97482282b442649c1e57542bcf3b78793"
+    }
+  },
+  {
+    "id": "image_generator",
+    "title": "Image Generator",
+    "description": "Image generation requires an optional provider and explicit usage configuration.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "image_generator.js",
+      "sha256": "c5b9bb38e17d6790e4ad11eed84af2d39db3c127d043ca8cb573f5077fb33f1a"
+    }
+  },
+  {
+    "id": "mcp_bridge",
+    "title": "Mcp Bridge",
+    "description": "Original JSON-RPC POST helper is not a complete MCP client; excluded rather than claiming MCP compatibility.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "mcp_bridge.js",
+      "sha256": "7857341280b62b28c97fb365a73f4932d0931c7e2f82a1431141bf038fac3846"
+    }
+  },
+  {
+    "id": "pdf_extractor",
+    "title": "Pdf Extractor",
+    "description": "PDF parsing requires a separately bounded document-ingestion adapter.",
+    "capabilities": [
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "pdf_extractor.js",
+      "sha256": "3604a40af8b843be86f3c07b669d55daa80782414f0812e6b31f61cb750f9f6e"
+    }
+  },
+  {
+    "id": "pdf_reader",
+    "title": "Pdf Reader",
+    "description": "PDF and arbitrary-path ingestion are excluded from the standalone CRM.",
+    "capabilities": [
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "pdf_reader.js",
+      "sha256": "e263eec63be38e1436606c927e58e1dfa63893cbd2110ffc9eb971424ce12e1e"
+    }
+  },
+  {
+    "id": "python_runner",
+    "title": "Python Runner",
+    "description": "Arbitrary Python/shell execution is excluded.",
+    "capabilities": [
+      "host-execution",
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "python_runner.js",
+      "sha256": "a2ea7eefa6c263b6eaab8752aba552cf0a9ef0a9878f3e5c16fb9b4a1610e9e2"
+    }
+  },
+  {
+    "id": "screenshot",
+    "title": "Screenshot",
+    "description": "Desktop/browser capture requires a separate isolated host adapter.",
+    "capabilities": [
+      "host-execution",
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "screenshot.js",
+      "sha256": "98f04577a6e92093a4c7c4a6c8016a543649ff17a3bfd0928a868eb2ab3de8dd"
+    }
+  },
+  {
+    "id": "signal_agent",
+    "title": "Signal Agent",
+    "description": "Cross-agent signaling and legacy runtime paths are excluded.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "signal_agent.js",
+      "sha256": "ce38f5be5b20890432cd13376334f7cf9a90ce2118acaa7f046de3000a85ff76"
+    }
+  },
+  {
+    "id": "skill_creator",
+    "title": "Skill Creator",
+    "description": "Self-modifying skills and dynamic execution are excluded.",
+    "capabilities": [
+      "host-execution",
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "skill_creator.js",
+      "sha256": "558c4f09ec39ed168a1231b161a9e8aaa8cd8719f5da466b80db76c0e85dd813"
+    }
+  },
+  {
+    "id": "system_monitor",
+    "title": "System Monitor",
+    "description": "Host process/network introspection is outside the CRM.",
+    "capabilities": [
+      "host-execution"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "system_monitor.js",
+      "sha256": "1489476374c346afb8867897aaf05bd83183f2c718d07acecfa745a7f836fc35"
+    }
+  },
+  {
+    "id": "tavily_search",
+    "title": "Tavily Search",
+    "description": "External search provider requires credentials and explicit data-sharing controls.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "tavily_search.js",
+      "sha256": "a71e5c2d0d8081034c898de36e286f2490bec72f2d6a3d279e69b7f9c06e4ae7"
+    }
+  },
+  {
+    "id": "url_opener",
+    "title": "Url Opener",
+    "description": "Opening arbitrary local/browser targets is excluded.",
+    "capabilities": [
+      "host-execution"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "url_opener.js",
+      "sha256": "2a9558cfb576b37762215467be77d56b761c3882de08c3394c6a07c9adbc273f"
+    }
+  },
+  {
+    "id": "visit_analyzer",
+    "title": "Visit Analyzer",
+    "description": "General visit-quality concepts are implemented by server/analysis.js; legacy live database/provider bindings are excluded.",
+    "capabilities": [
+      "network",
+      "filesystem"
+    ],
+    "status": "replaced-by-crm",
+    "source": {
+      "file": "visit_analyzer.js",
+      "sha256": "349bb41ee872fd171d6fdeab0265f202716588d193cd1ff2118492f9c8792531"
+    }
+  },
+  {
+    "id": "visit_logger",
+    "title": "Visit Logger",
+    "description": "Visit persistence, exact customer IDs and deduplication are implemented by the CRM API; legacy chat/notification side effects are excluded.",
+    "capabilities": [
+      "network",
+      "filesystem"
+    ],
+    "status": "replaced-by-crm",
+    "source": {
+      "file": "visit_logger.js",
+      "sha256": "ae0ae198ca1d2968b785c85a8a145e228bea5a88c1ff79982ff5b78eb3907f0a"
+    }
+  },
+  {
+    "id": "weather",
+    "title": "Weather",
+    "description": "Weather requests and external location disclosure require an explicit outbound adapter.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "weather.js",
+      "sha256": "291b52a7668f314e44f37f7cef059d9a268c1570e4ae69dad18bb80213eec9a5"
+    }
+  },
+  {
+    "id": "web_scraper",
+    "title": "Web Scraper",
+    "description": "Arbitrary outbound URL fetching requires a reviewed network boundary.",
+    "capabilities": [
+      "network"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "web_scraper.js",
+      "sha256": "2910ea9c26de1ea1cebff20383dcbdc7a324e654437560896a70640aea372d00"
+    }
+  },
+  {
+    "id": "write_file",
+    "title": "Write File",
+    "description": "Arbitrary filesystem writes are excluded; CRM persistence is scoped to its own data directory.",
+    "capabilities": [
+      "filesystem"
+    ],
+    "status": "excluded",
+    "source": {
+      "file": "write_file.js",
+      "sha256": "d2fcbe64e57f8595a08c33573dac2a82722f33caa3ff3c5e1022710dd85b7054"
+    }
+  }
+]
